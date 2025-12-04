@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-configmap
+data:
+  #property like keys; each keys map to a simple value
+  APP_ENV: "Stage"
+  STAGE_API_ENDPOINT: "https://api.xyz.com"
